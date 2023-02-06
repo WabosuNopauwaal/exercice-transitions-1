@@ -56,3 +56,18 @@
   background: #eff6e0;
   transition: 0.5s 0.5s;
 }
+
+#ex10 .box:hover {
+  transform: translateY(18.5%);
+  transition: ease-in;
+}
+
+#ex11 .box:hover {
+  transform: rotate(90deg);
+  transition: ease-in;
+}
+
+#ex12 .box:hover {
+  transform: scale(120%);
+  transition: ease-in;
+}
