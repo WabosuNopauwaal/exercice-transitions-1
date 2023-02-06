@@ -9,8 +9,7 @@
 
 #ex03 .box:hover {
   background: #124559;
-  transition-delay: 0.5s;
-  transition-duration: 0.5s;
+  transition: 0.5s 0.5s;
 }
 
 #ex04 .box:hover {
@@ -21,9 +20,39 @@
 #ex05 .box:hover {
   background: #124559;
   color: #eff6e0;
-  transition: background 0.5s, color 0.5s 0.5s;
+  transition: background 0.5s, color 0.5s 0.5s ease-out;
 }
 
-#ex06 .box:hover {
+#ex06 .wrapper:hover .box {
   background: #124559;
+  transition: 0.5s 0.5s;
+}
+
+#ex07 .wrapper:hover .box:nth-child(1) {
+  background: #124559;
+  transition: 0.2s ease-in;
+}
+#ex07 .wrapper:hover .box:nth-child(2) {
+  background: #124559;
+  transition: 0.5s ease-in;
+}
+#ex07 .wrapper:hover .box:nth-child(3) {
+  background: #124559;
+  transition: 0.8s ease-in;
+}
+
+#ex08 .wrapper:hover {
+  background: #124559;
+}
+#ex08 .wrapper:hover .box {
+  background: #eff6e0;
+}
+
+#ex09 .wrapper:hover {
+  background: #124559;
+  transition: 0.2s 0.2s;
+}
+#ex09 .wrapper:hover .box {
+  background: #eff6e0;
+  transition: 0.5s 0.5s;
 }
